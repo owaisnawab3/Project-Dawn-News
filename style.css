@@ -1,0 +1,372 @@
+@font-face{
+    font-family: Poppins;
+    src: url(./font/Poppins-Regular.ttf);
+}
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family:Poppins;
+}
+#navbar{
+    text-decoration:none;
+    text-align: center;
+    color: white;
+    background-color: #212529;
+    padding: 0px 0px 0px 40px;
+    height: 25px;
+}
+#home{
+    text-decoration: none;
+    color: #ffffff;
+    font-size:  12px;
+    text-transform: uppercase;
+    margin: 0px 10px;
+    text-align: center;
+    
+}
+#aboutus{
+    text-decoration: none;
+    color: #ffffff;
+    font-size:  12px;
+    margin: 0px 10px;
+}
+#services{
+    text-decoration: none;
+    color: #ffffff;
+    font-size:  12px;
+    margin: 0px 10px;
+}
+#product{
+    text-decoration: none;
+    color: #ffffff;
+    font-size:  12px;
+    margin: 0px 10px;
+}
+#blogs{
+    text-decoration: none;
+    color: #ffffff;
+    font-size:  12px;
+    margin: 0px 10px;
+}
+#downnews{
+    text-decoration: none;
+    color: #ffffff;
+    font-size:  12px;
+    margin: 0px 10px;
+}
+#images{
+    text-decoration: none;
+    color: #ffffff;
+    font-size:  12px;
+    margin: 0px 10px;
+}
+#contact{
+    text-decoration: none;
+    color: #ffffff;
+    font-size:  12px;
+    margin: 0px 10px;
+}
+.newslogo{
+    margin: auto;
+    width: 251px;
+    padding: 20px 0px;
+    display: block;
+    margin: auto;
+    
+}
+.paper{
+    text-align: center;
+    font-size: 14px;
+    margin: 0px 0px 16px;
+    color: #212529;
+    margin-bottom: 1rem;
+}
+.nav{
+    text-align: center;
+    text-decoration: none;
+    color: #212529;
+}
+.home{
+    text-decoration: none;
+    color: #333333;
+    padding: 5px 6px;
+    font-size: 12px;
+}
+.latest{
+    text-decoration: none;
+    color: #333333;
+    padding: 5px 6px;
+    font-size: 12px;
+}
+.coronavirus{
+    text-decoration: none;
+    color: #333333;
+    padding: 5px 6px;
+    font-size: 12px;
+}
+.pakistan{
+    text-decoration: none;
+    color: #333333;
+    padding: 5px 6px;
+    font-size: 12px;
+}
+.business{
+    text-decoration: none;
+    color: #333333;
+    padding: 5px 6px;
+    font-size: 12px;
+}
+.openion{
+    text-decoration: none;
+    color: #333333;
+    padding: 5px 6px;
+    font-size: 12px;
+}
+.culture{
+    text-decoration: none;
+    color: #333333;
+    padding: 5px 6px;
+    font-size: 12px;
+}
+.sport{
+    text-decoration: none;
+    color: #333333;
+    padding: 5px 6px;
+    font-size: 12px;
+}
+.magzine{
+    text-decoration: none;
+    color: #333333;
+    padding: 5px 6px;
+    font-size: 12px;
+}
+.world{
+    text-decoration: none;
+    color: #333333;
+    padding: 5px 6px;
+    font-size: 12px;
+}
+.tech{
+    text-decoration: none;
+    color: #333333;
+    padding: 5px 6px;
+    font-size: 12px;
+}
+.prism{
+    text-decoration: none;
+    color: #333333;
+    padding: 5px 6px;
+    font-size: 12px;
+}
+.popular{
+    text-decoration: none;
+    color: #333333;
+    padding: 5px 6px;
+    font-size: 12px;
+}
+.multimedia{
+    text-decoration: none;
+    color: #333333;
+    padding: 5px 6px;
+    font-size: 12px;
+}
+.archive{
+    text-decoration: none;
+    color: #333333;
+    padding: 5px 6px;
+    font-size: 12px;
+}
+.indepth{
+    text-decoration: none;
+    color: #333333;
+    padding: 5px 6px;
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+.search{
+    width: 15px;
+    display: inline;
+    padding: 5px 6px;
+}
+.box{
+    border: none;
+    padding: 5px 6px;
+    margin-left: 5px;
+}
+@font-face{
+    font-family: Montserrat;
+    src: url(./fonts/fonts/static/Montserrat-Light.ttf);
+}
+h1{
+    text-align: center;
+    font-size: 34px;
+    color: #212529;
+    font-family: Montserrat;
+    margin: 0px 0px 8px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.published{
+    color: #212529;
+    font-size: 14px;
+    margin: 0px 0px 16px;
+    padding: 0px 120px;
+    font-family: monser;
+}
+.icon{
+    display: flex;
+    padding: 0px 10px;
+    list-style: none;
+    width: 15px;
+    margin-right: 100px;
+}
+.facebook{
+    width: 30px;
+    padding-right: 18px;
+    margin-left: 930px;
+}
+.twitter{
+    width: 30px;
+    padding-right: 18px;
+}
+.contact{
+    width: 30px;
+    padding-right: 18px;
+}
+.email{ 
+    width: 30px;
+    padding-right: 18px;
+}
+.photo{
+    width: 850px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: clip;
+}
+.name{
+    font-size: 15px;
+    margin-left: 250px;
+}
+.paragraph{
+    color: #212529;
+    font-size: 18px;
+    margin-left: 250px;
+    line-height: 35px;
+}
+p a{
+    color: #007bbf;
+    text-decoration: none;
+    font-weight:900;
+}
+/* p.list:hover{
+    color: blue;
+} */
+/* a :hover{
+    text-decoration: underline;
+    background-color: blue;
+} */
+p a.line:hover{
+    color: blue;
+    text-decoration: underline;
+
+}
+.para{
+    font-size: 18px;
+    margin-left: 250px;
+    color: #212529;
+    line-height: 35px;
+    margin-right: 250px;
+}
+.comments{
+    margin-left: 250px;
+    color: #212529;
+    border-radius: 4px;
+    font-size: 14px;
+}
+.input{
+    margin-left: 250px;
+    margin-right: 20px; ;
+    margin: 0px 0px 10px;
+    padding-left: 20px;
+    font-family:'Franklin Gothic Medium';
+    color: #434343;
+    font-size: 1em;
+    border: 0px solid  #3b3a3a;;
+    /* background-color: #f7f7f7; */
+    border-radius: 4px;
+    display: inline-block;
+    border: 20px 20px 10px 20px;
+}
+::placeholder{
+    color: #434343;
+}
+input[type=text]{
+    background-color: #F7F7F7;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+}
+.email1{
+    margin-left: 40px;
+    display: inline;
+
+    color: #434343;
+    font-size: 1em;
+    border: 0px solid #3b3a3a;
+    border-radius: 4px;
+    border: 20px 20px 10px 20px;
+}
+::placeholder{
+    color: #434343;
+}
+input[type=email]{
+    background-color: #F7F7F7;
+    margin-bottom: 10px;
+    padding: 10px;
+    border:none;
+    border-radius: 4px;
+    margin-left: 50px;
+    
+}
+::placeholder{
+    color: #434343;
+}
+textarea[type=message]{
+    background-color: #F7F7F7;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    resize: none;
+    
+}
+.redline{
+    color: #ff0000;
+    font-size: 12px;
+    margin-top: 20px;
+}
+.blackline{
+    color: #212529;
+    font-size: 10px;
+    margin-top: 15px;
+}
+.phone{
+    margin-top: 15px;
+    padding-left: 50px;
+    margin-right: 50px;
+}
+.message{
+    margin-top: 15px;
+}
+button{
+    border: 2px solid #333333;
+    padding: 3px 10px;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+.footer{
+    background-color: #F7F7F7;
+    height: 20px;
+}
